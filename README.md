@@ -11,3 +11,10 @@ Para la búsqueda de los night clubs, se ha escogido una distancia máxima de 50
 
 ## Starbucks
 Para la búsqueda de los starbucks, se ha escogido una distancia máxima de 250 metros con respecto a la oficina. Se ha cogido un valor para la media ponderada de 25%. 
+
+# Carpetas
+## data
+Contiene los dataset (starbucks y airports) utilizados en el proyecto
+
+## json
+Contiene los jsons generados para ser importados a mongoDB. Los jsons denominados cleaned contiene datos filtrados. El archivo airports-nightClub-starbucks.json contiene los datos de todos los datos filtrados.
