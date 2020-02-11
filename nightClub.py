@@ -28,7 +28,7 @@ def location(lista):
         if i == None:
             continue
         for e in i:
-            listaCoordenadas.append((e["latitude"], e["longitude"]))
+            listaCoordenadas.append((e["name"], e["latitude"], e["longitude"]))
     return listaCoordenadas
 
 

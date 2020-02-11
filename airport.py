@@ -35,7 +35,7 @@ def location(lista):
     for i in lista:
         for e in i:
             query = {"name": f"{e['name']}"}
-            projection = {"_id": 0, "latitude_deg": 1, "longitude_deg": 1}
+            projection = {"_id": 0, "name": 1, "latitude_deg": 1, "longitude_deg": 1}
             result = db["airports"].find(query, projection)
             listaCoordenadas.append(list(result))
     return listaCoordenadas
